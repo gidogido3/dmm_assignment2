@@ -78,3 +78,8 @@ label {
   padding:2px;
   display: table;
 }
+
+.flash_success {
+  margin: 33px;
+  color: #008000;
+}

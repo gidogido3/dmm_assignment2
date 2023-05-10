@@ -1,3 +1,4 @@
+<p class="flash_success"><%= flash[:notice] %></p>
 
 <p><strong>Title: </strong><%= @show_book.title %></p>
 
@@ -5,4 +6,4 @@
 
 <%= link_to "Edit", edit_book_path(@show_book.id) %>
 |
-<%= link_to "Back", "/books/" %>
+<%= link_to "Back", books_path %>
